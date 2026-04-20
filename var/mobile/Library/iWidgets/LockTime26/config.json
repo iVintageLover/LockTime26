@@ -1,0 +1,115 @@
+{
+    "name": "LockTime26",
+    "author": "iVintageLover",
+    "size": {
+        "max-width": "100%",
+        "width": "100%",
+        "height": "180px"
+    },
+    "options": [
+        {
+            "type": "title",
+            "text": "Clock Style"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "fontStencil",
+            "text": "Stencil"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "fontTall",
+            "text": "Tall"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "fontBlack",
+            "text": "Black"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "fontRail",
+            "text": "Rail"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "fontRounded",
+            "text": "Rounded"
+        },
+        {
+            "type": "slider",
+            "default": 80,
+            "key": "timeSize",
+            "text": "Time Size",
+            "min": 50,
+            "max": 300,
+            "step": 1
+        },
+        {
+            "type": "title",
+            "text": "Time Color"
+        },
+        {
+            "type": "color",
+            "default": "#ffffff",
+            "key": "timeColor",
+            "text": "Time Color",
+        },
+        {
+            "type": "slider",
+            "default": 20,
+            "key": "dateSize",
+            "text": "Date Size",
+            "min": 12,
+            "max": 40,
+            "step": 1
+        },
+        {
+            "type": "title",
+            "text": "Date Color"
+        },
+        {
+            "type": "color",
+            "default": "#ffffff",
+            "key": "dateColor",
+            "text": "Date Color",
+        },
+        {
+            "type": "title",
+            "text": "Layout"
+        },
+        {
+            "type": "slider",
+            "default": 60,
+            "key": "timeTop",
+            "text": "Time Position",
+            "min": 0,
+            "max": 140,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "default": 30,
+            "key": "dateTop",
+            "text": "Date Position",
+            "min": 0,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "use24Hour",
+            "text": "Use 24-Hour Time"
+        },
+        {
+            "type": "comment",
+            "text": "LockTime26 1.0 by iVintageLover"
+        }
+    ]
+}
